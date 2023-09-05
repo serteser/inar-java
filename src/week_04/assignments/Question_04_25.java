@@ -9,14 +9,9 @@ public class Question_04_25 {
         char plateChar1 = (char) (plateLetter1);
         char plateChar2 = (char) (plateLetter2);
         char plateChar3 = (char) (plateLetter3);
-        String ch1 = plateChar1 + "";
-        String plateNumber = ch1 +plateChar2+plateChar3+number;
+        String plateNumber = "";
+        plateNumber = plateNumber + plateChar1 + plateChar2 + plateChar3 + number;
         System.out.println(plateNumber);
-
-
-
-
-
 
 
     }
