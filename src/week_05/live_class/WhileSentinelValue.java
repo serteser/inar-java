@@ -17,7 +17,7 @@ public class WhileSentinelValue {
             sum += data;
 
             // Read the next data
-            System.out.print("Enter an integer (the input ends if it is 0):");
+            //System.out.print("Enter an integer (the input ends if it is 0):");
             data = input.nextInt();
         }
         System.out.println("The sum is " + sum);

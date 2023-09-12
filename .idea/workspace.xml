@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="adding week_05_21/26">
+    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="adding week_05_27/34">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_05/assignments/Question_05_26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_05/assignments/Question_05_26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_05/live_class/TestContinue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_05/live_class/TestContinue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_05/live_class/WhileSentinelValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_05/live_class/WhileSentinelValue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +44,9 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Question_05_34">
-    <configuration name="Question_05_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_05.assignments.Question_05_18" />
+  <component name="RunManager" selected="Application.Question_05_47">
+    <configuration name="Question_05_42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_05.assignments.Question_05_42" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_05_32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_05.assignments.Question_05_32" />
+    <configuration name="Question_05_43" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_05.assignments.Question_05_43" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_05_33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_05.assignments.Question_05_33" />
+    <configuration name="Question_05_45" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_05.assignments.Question_05_45" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_05_34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_05.assignments.Question_05_34" />
+    <configuration name="Question_05_46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_05.assignments.Question_05_46" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_05.live_class.TestBreak" />
+    <configuration name="Question_05_47" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_05.assignments.Question_05_47" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_05.live_class.*" />
+          <option name="PATTERN" value="week_05.assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question_05_34" />
-        <item itemvalue="Application.Question_05_33" />
-        <item itemvalue="Application.Question_05_32" />
-        <item itemvalue="Application.Question_05_18" />
-        <item itemvalue="Application.TestBreak" />
+        <item itemvalue="Application.Question_05_47" />
+        <item itemvalue="Application.Question_05_46" />
+        <item itemvalue="Application.Question_05_45" />
+        <item itemvalue="Application.Question_05_43" />
+        <item itemvalue="Application.Question_05_42" />
       </list>
     </recent_temporary>
   </component>
@@ -135,12 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694087267168</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding week_05_27/34">
+      <option name="closed" value="true" />
+      <created>1694340009150</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694340009150</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding week_05_21/26" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding week_05_21/26" />
+    <MESSAGE value="adding week_05_27/34" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding week_05_27/34" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
