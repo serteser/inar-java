@@ -13,18 +13,18 @@ public class Question_06_07 {
         System.out.print("The number of years: ");
         int numberOfYears = input.nextInt();
         System.out.println("Years   Future Value");
-        System.out.println(futureInvestmentValue(investmentAmount, monthlyInterestRate, numberOfYears));
-    }
-
-    public static double futureInvestmentValue(double investmentAmount, double monthlyInterestRate, int numberOfYears) {
-        double result = 0;
-
+        double result;
         for (int i = 1; i <= numberOfYears; i++) {
 
-            result = investmentAmount * Math.pow((1 + monthlyInterestRate), (i * 12));
+            result = futureInvestmentValue( investmentAmount, monthlyInterestRate, i);
 
             System.out.printf("%2d      %8.2f\n", i, result);
         }
+    }
+
+    public static double futureInvestmentValue(double investmentAmount, double monthlyInterestRate, int numberOfYears) {
+        double result;
+            result = investmentAmount * Math.pow((1 + monthlyInterestRate), (numberOfYears * 12));
         return result;
     }
 }

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="editing 05_28, 41, 47, 49 adding 05_50-51">
+    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="adding week_06 assignments 06_01-17">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_05/live_class/NestedLoopsMultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_05/live_class/NestedLoopsMultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_06/assignments/Question_06_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_06/assignments/Question_06_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_06/assignments/Question_06_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_06/assignments/Question_06_07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_06/live_class/TestMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_06/live_class/TestMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_06/live_class/TestReturnGradeMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_06/live_class/TestReturnGradeMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +45,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Question_06_01">
-    <configuration name="Question_06_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_06.assignments.Question_06_01" />
+  <component name="RunManager" selected="Application.Question_06_20">
+    <configuration name="Question_06_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_06.assignments.Question_06_07" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -59,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_06_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_06.assignments.Question_06_12" />
+    <configuration name="Question_06_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_06.assignments.Question_06_18" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_06_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_06.assignments.Question_06_15" />
+    <configuration name="Question_06_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_06.assignments.Question_06_19" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_06_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_06.assignments.Question_06_16" />
+    <configuration name="Question_06_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_06.assignments.Question_06_20" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -98,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_06_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_06.assignments.Question_06_17" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_06.live_class.Test" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_06.assignments.*" />
+          <option name="PATTERN" value="week_06.live_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question_06_01" />
-        <item itemvalue="Application.Question_06_17" />
-        <item itemvalue="Application.Question_06_12" />
-        <item itemvalue="Application.Question_06_16" />
-        <item itemvalue="Application.Question_06_15" />
+        <item itemvalue="Application.Question_06_20" />
+        <item itemvalue="Application.Question_06_19" />
+        <item itemvalue="Application.Question_06_18" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Question_06_07" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694626000075</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding week_06 assignments 06_01-17">
+      <option name="closed" value="true" />
+      <created>1694969039793</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694969039793</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,7 +191,8 @@
     <MESSAGE value="adding week_05_35/47" />
     <MESSAGE value="editing 05_36, adding 05_48/49" />
     <MESSAGE value="editing 05_28, 41, 47, 49 adding 05_50-51" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing 05_28, 41, 47, 49 adding 05_50-51" />
+    <MESSAGE value="adding week_06 assignments 06_01-17" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding week_06 assignments 06_01-17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -190,5 +203,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

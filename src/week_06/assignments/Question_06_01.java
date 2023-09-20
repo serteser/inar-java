@@ -4,18 +4,13 @@ public class Question_06_01 {
     public static void main(String[] args) {
 
         System.out.println("The first 100 pentagonal numbers, ten per line: ");
-        System.out.print(getPentagonalNumber(100));
-
-    }
-
-    public static int getPentagonalNumber(int n) {
-
-        int pentagonalNumber = 0;
+        int pentagonalNumber;
         int count = 0;
+        int n = 100;
 
         for (int i = 1; i <= n; i++) {
 
-            pentagonalNumber = (i * (3 * i - 1) / 2);
+            pentagonalNumber = getPentagonalNumber(i);
 
             count++;
 
@@ -26,6 +21,12 @@ public class Question_06_01 {
                 System.out.printf("%6d", pentagonalNumber);
             }
         }
-        return pentagonalNumber;
+
+
+
     }
+    public static int getPentagonalNumber(int i) {
+        return (i * (3 * i - 1)) / 2;
+    }
+
 }
