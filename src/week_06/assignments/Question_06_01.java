@@ -23,8 +23,8 @@ public class Question_06_01 {
         }
 
 
-
     }
+
     public static int getPentagonalNumber(int i) {
         return (i * (3 * i - 1)) / 2;
     }

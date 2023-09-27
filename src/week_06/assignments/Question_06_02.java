@@ -18,7 +18,7 @@ public class Question_06_02 {
         for (int i = 1, j = 1; j <= numberLength; i *= 10, j++) {
 
             digits = (n / i) % 10;
-            result += digits;
+            result += (int) digits;
         }
 
         return result;
