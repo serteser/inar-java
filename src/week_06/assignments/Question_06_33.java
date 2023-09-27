@@ -13,7 +13,7 @@ public class Question_06_33 {
         int currentYear = getCurrentYear(totalMilliseconds);
         int currentDay = getCurrentDay(totalMilliseconds, currentYear);
         String nameOfMonth = getNameOfCurrentMonth(totalMilliseconds, currentYear);
-        System.out.println("Current date and time is  " + nameOfMonth + " " + currentDay + ", " + currentYear + "  " + (currentHour + 3) + " : "
+        System.out.println("Current date and time is  " + nameOfMonth + " " + currentDay + ", " + currentYear + "  " + (currentHour + 3)%24 + " : "
                 + currentMinute + " : " + currentSecond);
 
     }
