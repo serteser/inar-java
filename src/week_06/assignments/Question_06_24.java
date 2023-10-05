@@ -21,7 +21,7 @@ public class Question_06_24 {
     public static int getCurrentYear(long milliseconds) {
         int totalDays = getTotalDays(milliseconds);
         int year = 1970;
-        while (totalDays > daysInYear(year)) {
+        while (totalDays >= daysInYear(year)) {
             totalDays -= daysInYear(year);
             year++;
         }

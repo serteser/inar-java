@@ -19,7 +19,7 @@ public class ComparingAndTestingCharacters {
         String word1 = ch1 + "";
         String word2 = ch2 + "";
         String word = word1.concat(word2);
-        System.out.println((3 + ch1 )+ " " + (5 + ch2) + " koşuyorlardı.");
+        System.out.println((3 + ch1 )+ " " + (5 + ch2) + " were running.");
          char i = '1';
          char j = '2';
         System.out.println(" " + i+j);
