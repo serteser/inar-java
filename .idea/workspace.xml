@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="editing 06_33">
+    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="adding week_07 assignments 07_01-15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_04/live_class/ComparingAndTestingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_04/live_class/ComparingAndTestingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_06/assignments/Question_06_24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_06/assignments/Question_06_24.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;serteser&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6acb90a5-e27c-4170-95f0-92019ea4a703" />
+        <option name="url" value="https://github.com/serteser/inar-java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="showPreview" value="true" />
@@ -47,9 +59,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Question_07_15">
-    <configuration name="Question_07_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_07.assignments.Question_07_11" />
+  <component name="RunManager" selected="Application.Question_07_35">
+    <configuration name="Question_07_29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_07.assignments.Question_07_29" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_07_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_07.assignments.Question_07_12" />
+    <configuration name="Question_07_32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_07.assignments.Question_07_32" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_07_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_07.assignments.Question_07_13" />
+    <configuration name="Question_07_33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_07.assignments.Question_07_33" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_07_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_07.assignments.Question_07_14" />
+    <configuration name="Question_07_34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_07.assignments.Question_07_34" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_07_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_07.assignments.Question_07_15" />
+    <configuration name="Question_07_35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_07.assignments.Question_07_35" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question_07_15" />
-        <item itemvalue="Application.Question_07_14" />
-        <item itemvalue="Application.Question_07_13" />
-        <item itemvalue="Application.Question_07_12" />
-        <item itemvalue="Application.Question_07_11" />
+        <item itemvalue="Application.Question_07_35" />
+        <item itemvalue="Application.Question_07_34" />
+        <item itemvalue="Application.Question_07_29" />
+        <item itemvalue="Application.Question_07_33" />
+        <item itemvalue="Application.Question_07_32" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695852547467</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding week_07 assignments 07_01-15">
+      <option name="closed" value="true" />
+      <created>1696516732096</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696516732096</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,7 +237,8 @@
     <MESSAGE value="editing 06_01,07 adding 06_18-20" />
     <MESSAGE value="editing 06_01,02 adding 06_21-39" />
     <MESSAGE value="editing 06_33" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing 06_33" />
+    <MESSAGE value="adding week_07 assignments 07_01-15" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding week_07 assignments 07_01-15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,6 +247,16 @@
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="4" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/week_07/live_class/BinarySearch.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/week_07/assignments/Question_07_35.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
