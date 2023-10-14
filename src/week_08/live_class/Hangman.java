@@ -1,9 +1,9 @@
-package week_07.assignments;
+package week_08.live_class;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Question_07_35 {
+public class Hangman {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String[] words = {"computer", "cup", "umbrella", "pasta", "bike", "write", "grand", "plant", "fragrance", "cream"};
@@ -13,15 +13,24 @@ public class Question_07_35 {
         if (ch == 'N' || ch == 'n') {
             System.out.println("Ok then I'll be here whenever you wish!");
         } else if (ch == 'Y' || ch == 'y') {
-            boolean isGameStrictlyOver = true;
+            boolean isGameStritclyOver = true;
             do {
                 int wordChooser = (int) (Math.random() * 10);
                 String word = words[wordChooser];
                 char[] chosenWord = wordToArray(word);
                 char[] chosenWordInAsterisk = new char[word.length()];
+                //System.arraycopy(chosenWord, 0, chosenWordInAsterisk, 0, word.length());
                 Arrays.fill(chosenWordInAsterisk, '*');
+                //System.out.println(Arrays.toString(chosenWordInAsterisk));
+
+                char[] trying = {'w','r','i','t','e'};
+                String k = "write";
+                System.out.print(k.contains("r") ? "yes" : "no");
+
+
 
                 String repeatedLetter = " ";
+                //int totalCounter = 0;
                 int counter = 0;
                 boolean isGameOver = true;
                 do {
@@ -35,9 +44,10 @@ public class Question_07_35 {
                     String tryingLetter = " " + ch;
                     for (int i = 0; i < chosenWord.length; i++) {
 
-                        if (chosenWord[i] == ch ) {
+                        if (chosenWord[i] == ch ^ repeatedLetter.contains(s)) {
                             chosenWordInAsterisk[i] = ch;
                             ++counter;
+                            //break;
                         } else if (counter == (word.length() - 1) && !word.contains(s)) {
                             System.out.printf("The word is %3s. You missed 1 time\n", word);
                             isGameOver = false;
@@ -56,22 +66,39 @@ public class Question_07_35 {
 
                     }
                     repeatedLetter += " " + tryingLetter;
+                    //totalCounter += counter;
+                    System.out.println("counter=>" + counter);
+                    //System.out.println("totalCounter=>" + totalCounter);
+                    //repeatedLetter += " " + tryingLetter;
+                    //counter = 0;
+                    //tryingLetter = " ";
+
 
                 } while (isGameOver);
                 System.out.println("Do you want to guess another word? Enter Y or N > ");
                 s = input.nextLine();
                 ch = s.charAt(0);
                 if (ch == 'N' || ch == 'n') {
-                    isGameStrictlyOver = false;
-                }
-            }while (isGameStrictlyOver) ;
+                    isGameStritclyOver = false;
+                    //break;
+                }// else {
+                // isGameOver = true;
+
+                //}
+
+            } while (isGameStritclyOver);
+
         }
+
     }
-        public static char[] wordToArray (String word){
-            char[] chosenWord = new char[word.length()];
-            for (int i = 0; i < chosenWord.length; i++) {
-                chosenWord[i] = word.charAt(i);
-            }
-            return chosenWord;
+    public static char[] wordToArray(String word) {
+        char[] chosenWord = new char[word.length()];
+        for (int i = 0; i < chosenWord.length; i++) {
+            chosenWord[i] = word.charAt(i);
         }
+        //for (int i = 0; i < chosenWord.length; i++) {
+        //    System.out.print(chosenWord[i] + "");
+        //}
+        return chosenWord;
+    }
 }

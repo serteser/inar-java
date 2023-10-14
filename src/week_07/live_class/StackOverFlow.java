@@ -13,9 +13,9 @@ public class StackOverFlow {
         for (int i = solutionArray.length - 1; i >= 0; i--) {
             int index = (int) (Math.random() * (i + 1));
 
-            int a = solutionArray[index];
+            int temp = solutionArray[index];
             solutionArray[index] = solutionArray[i];
-            solutionArray[i] = a;
+            solutionArray[i] = temp;
 
             System.out.print(solutionArray[i] + " ");
         }
