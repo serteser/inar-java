@@ -1,6 +1,6 @@
 package week_08.live_class;
 
-public class SelfStudyOnLiveClass1 {
+public class SelfStudyOn_07_LiveClass1 {
     public static void main(String[] args) {
         //You are given a non-empty array, return true if there is a
         // place to split the array so that the sum of the numbers on one side is equal to 	the sum of the numbers on the other side.

@@ -2,7 +2,7 @@ package week_08.live_class;
 
 import java.util.Arrays;
 
-public class SelfStudyOnLiveClass2 {
+public class SelfStudyOn_07_LiveClass2 {
     public static void main(String[] args) {
         //Question : Return a version of the given array where all the 10's have been removed.
         // The remaining elements should shift left towards the start of the array as needed,
