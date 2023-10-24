@@ -7,7 +7,7 @@ public class Question_08_09 {
         Scanner input = new Scanner(System.in);
         char[][] matrix = new char[3][3];
         getGameBoard(matrix);
-        //displayEmptyBoard(matrix,0,0);
+        displayEmptyBoard(matrix);
         int xR = 0;
         int oR = 0;
         int xC, oC;
@@ -24,12 +24,12 @@ public class Question_08_09 {
             if (count % 2 != 0) {
                 xC = input.nextInt();
                 matrix[xR][xC] = 'X';
-                //displayEmptyBoard(matrix,xR,xC);
+                displayEmptyBoard(matrix);
             } else {
                 oC = input.nextInt();
                 matrix[oR][oC] = 'O';
+                displayEmptyBoard(matrix);
             }
-            printMatrix(matrix);
             if (isGameOver(matrix)) {
                 isGameOver = false;
                 break;
@@ -84,15 +84,6 @@ public class Question_08_09 {
         return isGameOver;
     }
 
-    public static void printMatrix(char[][] m) {
-        for (int row = 0; row < m.length; row++) {
-            for (int column = 0; column < m[0].length; column++) {
-                System.out.print(m[row][column] + " ");
-            }
-            System.out.println();
-        }
-    }
-
     public static char[][] getGameBoard(char[][] m) {
         for (int row = 0; row < m.length; row++) {
             for (int column = 0; column < m[0].length; column++) {
@@ -101,13 +92,14 @@ public class Question_08_09 {
         }
         return m;
     }
-//    public static void displayEmptyBoard(char[][]m, int r, int c){
-//        System.out.println("---------------");
-//        System.out.printf("| %c | %c | %c |\n",m[0][0], m[r][c], m[r][c]);
-//        System.out.println("---------------");
-//        System.out.printf("| %c | %c | %c |\n",m[r][c], m[r][c], m[r][c]);
-//        System.out.println("---------------");
-//        System.out.printf("| %c | %c | %c |\n",m[r][c], m[r][c], m[r][c]);
-//        System.out.println("---------------");
-//    }
+
+    public static void displayEmptyBoard(char[][] m) {
+        System.out.println("\n-------------");
+        for (int i = 0; i < m.length; i++) {
+            for (int j = 0; j < m[i].length; j++) {
+                System.out.print("| " + m[i][j] + " ");
+            }
+            System.out.println("|\n-------------");
+        }
+    }
 }
