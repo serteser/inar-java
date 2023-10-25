@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="adding week_08 assignments 08_01-16">
+    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="editing 08_09,16 and adding week_08 assignments 08_17-37">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_08/assignments/Question_08_09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_08/assignments/Question_08_09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_08/assignments/Question_08_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_08/assignments/Question_08_16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_08/assignments/Question_08_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_08/assignments/Question_08_20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_08/assignments/Question_08_36.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_08/assignments/Question_08_36.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_08/live_class/Sudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_08/live_class/Sudoku.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +63,8 @@
   }
 }</component>
   <component name="RunManager" selected="Application.Question_08_20">
-    <configuration name="MatrixSortCustom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_08.live_class.MatrixSortCustom" />
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_08.live_class.Example" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -75,25 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_08_09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_08.assignments.Question_08_09" />
+    <configuration name="Question_06_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_06.assignments.Question_06_03" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_08.assignments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question_08_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_08.assignments.Question_08_19" />
-      <module name="inar-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week_08.assignments.*" />
+          <option name="PATTERN" value="week_06.assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,8 +102,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingByRows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_08.live_class.SortingByRows" />
+    <configuration name="Question_08_36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_08.assignments.Question_08_36" />
+      <module name="inar-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_08.assignments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_08.live_class.Sudoku" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -130,10 +131,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Question_08_20" />
-        <item itemvalue="Application.SortingByRows" />
-        <item itemvalue="Application.Question_08_19" />
-        <item itemvalue="Application.Question_08_09" />
-        <item itemvalue="Application.MatrixSortCustom" />
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Sudoku" />
+        <item itemvalue="Application.Question_06_03" />
+        <item itemvalue="Application.Question_08_36" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697728419427</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="editing 08_09,16 and adding week_08 assignments 08_17-37">
+      <option name="closed" value="true" />
+      <created>1698157314083</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698157314083</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,7 +276,8 @@
     <MESSAGE value="adding week_07 assignments 07_15-35" />
     <MESSAGE value="editing week_07 assignments 07_35" />
     <MESSAGE value="adding week_08 assignments 08_01-16" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding week_08 assignments 08_01-16" />
+    <MESSAGE value="editing 08_09,16 and adding week_08 assignments 08_17-37" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing 08_09,16 and adding week_08 assignments 08_17-37" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
