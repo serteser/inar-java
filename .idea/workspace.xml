@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="editing 08_09,16 and adding week_08 assignments 08_17-37">
+    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="editing week_08_20,36">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_08/assignments/Question_08_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_08/assignments/Question_08_20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_08/assignments/Question_08_36.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_08/assignments/Question_08_36.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_08/live_class/Sudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_08/live_class/Sudoku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_08/live_class/RotateClockwise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_08/live_class/RotateClockwise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17/lib/src.zip!/java.base/java/util/Random.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="showPreview" value="true" />
   </component>
@@ -62,13 +63,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Question_08_20">
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_08.live_class.Example" />
+  <component name="RunManager" selected="Application.Question_09_13">
+    <configuration name="Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_09.live_class.Math" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_08.live_class.*" />
+          <option name="PATTERN" value="week_09.live_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_06_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_06.assignments.Question_06_03" />
+    <configuration name="Question_09_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_09.assignments.Question_09_10" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_06.assignments.*" />
+          <option name="PATTERN" value="week_09.assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_08_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_08.assignments.Question_08_20" />
+    <configuration name="Question_09_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_09.assignments.Question_09_11" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_08.assignments.*" />
+          <option name="PATTERN" value="week_09.assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_08_36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_08.assignments.Question_08_36" />
+    <configuration name="Question_09_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_09.assignments.Question_09_12" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_08.assignments.*" />
+          <option name="PATTERN" value="week_09.assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_08.live_class.Sudoku" />
+    <configuration name="Question_09_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_09.assignments.Question_09_13" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_08.live_class.*" />
+          <option name="PATTERN" value="week_09.assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question_08_20" />
-        <item itemvalue="Application.Example" />
-        <item itemvalue="Application.Sudoku" />
-        <item itemvalue="Application.Question_06_03" />
-        <item itemvalue="Application.Question_08_36" />
+        <item itemvalue="Application.Question_09_13" />
+        <item itemvalue="Application.Question_09_12" />
+        <item itemvalue="Application.Math" />
+        <item itemvalue="Application.Question_09_11" />
+        <item itemvalue="Application.Question_09_10" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698157314083</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="editing week_08_20,36">
+      <option name="closed" value="true" />
+      <created>1698259321060</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698259321060</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -277,7 +286,8 @@
     <MESSAGE value="editing week_07 assignments 07_35" />
     <MESSAGE value="adding week_08 assignments 08_01-16" />
     <MESSAGE value="editing 08_09,16 and adding week_08 assignments 08_17-37" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing 08_09,16 and adding week_08 assignments 08_17-37" />
+    <MESSAGE value="editing week_08_20,36" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing week_08_20,36" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

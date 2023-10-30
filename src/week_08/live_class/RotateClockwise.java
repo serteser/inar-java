@@ -23,6 +23,9 @@ public class RotateClockwise {
                 matrix[j][i] = temp;
             }
         }
+        System.out.println("After the first loop: ");
+        displayMatrix(matrix);
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n / 2; j++) {
                 int temp = matrix[i][j];
