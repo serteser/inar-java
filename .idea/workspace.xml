@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="editing week_08_20,36">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_08/live_class/RotateClockwise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_08/live_class/RotateClockwise.java" afterDir="false" />
-    </list>
+    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="adding week_09 assignments 09_01-13" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,19 +61,6 @@
   }
 }</component>
   <component name="RunManager" selected="Application.Question_09_13">
-    <configuration name="Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_09.live_class.Math" />
-      <module name="inar-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week_09.live_class.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Question_09_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week_09.assignments.Question_09_10" />
       <module name="inar-java" />
@@ -129,11 +113,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Study" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_09.live_class.Study" />
+      <module name="inar-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_09.live_class.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Question_09_13" />
         <item itemvalue="Application.Question_09_12" />
-        <item itemvalue="Application.Math" />
+        <item itemvalue="Application.Study" />
         <item itemvalue="Application.Question_09_11" />
         <item itemvalue="Application.Question_09_10" />
       </list>
@@ -268,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698259321060</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="adding week_09 assignments 09_01-13">
+      <option name="closed" value="true" />
+      <created>1698691288265</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1698691288265</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -287,7 +292,8 @@
     <MESSAGE value="adding week_08 assignments 08_01-16" />
     <MESSAGE value="editing 08_09,16 and adding week_08 assignments 08_17-37" />
     <MESSAGE value="editing week_08_20,36" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing week_08_20,36" />
+    <MESSAGE value="adding week_09 assignments 09_01-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding week_09 assignments 09_01-13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

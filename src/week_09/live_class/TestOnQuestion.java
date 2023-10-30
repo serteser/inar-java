@@ -1,7 +1,5 @@
 package week_09.live_class;
 
-import java.awt.*;
-
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Random;
