@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="adding week_09 assignments 09_01-13">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="adding week_08 assignments 08_17" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -283,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698691568049</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="adding week_08 assignments 08_17">
+      <option name="closed" value="true" />
+      <created>1698771417102</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1698771417102</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -303,7 +309,8 @@
     <MESSAGE value="editing 08_09,16 and adding week_08 assignments 08_17-37" />
     <MESSAGE value="editing week_08_20,36" />
     <MESSAGE value="adding week_09 assignments 09_01-13" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding week_09 assignments 09_01-13" />
+    <MESSAGE value="adding week_08 assignments 08_17" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding week_08 assignments 08_17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
