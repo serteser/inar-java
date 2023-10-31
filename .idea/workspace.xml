@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="adding week_09 assignments 09_01-13" />
+    <list default="true" id="0c0dab87-03bc-471a-ae2f-ba1a7ae06e80" name="Changes" comment="adding week_09 assignments 09_01-13">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,13 +62,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Question_09_13">
-    <configuration name="Question_09_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_09.assignments.Question_09_10" />
+  <component name="RunManager" selected="Application.Question_08_17">
+    <configuration name="Question_08_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_08.assignments.Question_08_17" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_09.assignments.*" />
+          <option name="PATTERN" value="week_08.assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question_08_17" />
         <item itemvalue="Application.Question_09_13" />
         <item itemvalue="Application.Question_09_12" />
         <item itemvalue="Application.Study" />
         <item itemvalue="Application.Question_09_11" />
-        <item itemvalue="Application.Question_09_10" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698691288265</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="adding week_09 assignments 09_01-13">
+      <option name="closed" value="true" />
+      <created>1698691568049</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1698691568049</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
