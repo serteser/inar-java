@@ -1,13 +1,16 @@
-package week_07.assignments;
+package week_09.live_class;
 
 import java.util.Scanner;
 
-public class Question_07_05 {
+public class SelfStudyOn1DArrays {
     public static void main(String[] args) {
+
         int[] tenNumbers = getArray();
         int countOfDistinctNumber = countOfDistinctNumber(tenNumbers);
         System.out.println("The number of distinct numbers is " + countOfDistinctNumber);
         printArray(distinctNumbers(tenNumbers));
+
+
     }
 
     public static int[] getArray() {

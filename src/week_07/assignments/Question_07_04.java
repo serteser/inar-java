@@ -4,49 +4,33 @@ import java.util.Scanner;
 
 public class Question_07_04 {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter scores: (negative number signifies end): ");
+        System.out.print("Enter scores (negative number signifies end) : ");
+        int[] scores = new int[100];
+        int data = input.nextInt();
+        int total = 0;
+        int countOfScores = 0;
 
-        // Create and initialize the array
-        int scores = input.nextInt();
-        int[] arrayOfScores = new int[101];
-        for (int i = 0; i < arrayOfScores.length; i++) {
-            arrayOfScores[i] = i;
+        while (data != -1) {
+
+            scores[data]++;
+            total += data;
+            countOfScores++;
+            data = input.nextInt();
         }
-        // Create a copy array
-        int[] copyArrayOfScores = new int[arrayOfScores.length];
+        int average = total / countOfScores;
 
-        // Initialize it by copying the previous array
-        System.arraycopy(arrayOfScores, 0, copyArrayOfScores, 0, arrayOfScores.length);
-
-        // Reading and processing them within the copying array and calculate the sum and also find the average
-        int sum = 0;
-        double k = 0;
-        while (scores >= 0) {
-            sum += scores;
-            copyArrayOfScores[scores]++;
-            scores = input.nextInt();
-            k++;
-        }
-        double average = sum / k;
-
-        // Separation of scores according to the average
-        int aboveOrEqualAverage = 0;
-        int belowAverage = 0;
-        for (int i = 0; i < arrayOfScores.length; i++) {
-            if (arrayOfScores[i] != copyArrayOfScores[i]) {
-                if (arrayOfScores[i] >= average) {
-                    aboveOrEqualAverage += copyArrayOfScores[i] - arrayOfScores[i];
-                } else {
-                    belowAverage += copyArrayOfScores[i] - arrayOfScores[i];
-                }
+        int below = 0;
+        int above = 0;
+        for (int i = 0; i < scores.length; i++) {
+            if (i < 15) {
+                below += scores[i];
+            } else if (i >= 15) {
+                above += scores[i];
             }
         }
-
-        // Displaying the results
-        System.out.printf("\nThe average of scores: %.0f\n", average);
-        System.out.printf("Number of scores above or equal to average: %d\n", aboveOrEqualAverage);
-        System.out.printf("Number of scores below average: %d", belowAverage);
+        System.out.printf("Average of scores : %d\nNumber of scores above or equal to average: %d\nNumber of scores below average: %d", average, above, below);
 
     }
 }

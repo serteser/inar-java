@@ -4,44 +4,62 @@ import java.util.Scanner;
 
 public class Question_07_15 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter ten numbers: ");
-        int[] numbers = new int[10];
-        for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = input.nextInt();
-        }
+
+        int[] listOfTen = getArray();
+        int[] distinctNumbers = eliminateDuplicates(listOfTen);
         System.out.print("The distinct numbers are: ");
-        int[] eliminateNumbers = eliminateDuplicate(numbers);
-
-        for (int number : eliminateNumbers) {
-            System.out.print(number + " ");
-        }
+        printResult(distinctNumbers);
     }
 
-    public static int[] eliminateDuplicate(int[] list) {
-        int[] listWithDefaultValues = new int[list.length];
-        String allNumbers = " ";
-        String newNumber;
-        int lengthOfEliminateList = 0;
-        for (int i = 0; i < list.length; i++) {
-            newNumber = "" + list[i];
-            if (!allNumbers.contains(newNumber)) {
-                allNumbers += " " + newNumber;
-                lengthOfEliminateList++;
-                listWithDefaultValues[i] = list[i];
-            }
+    public static int[] getArray() {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter ten number: ");
+        int[] a = new int[10];
+        for (int i = 0; i < a.length; i++) {
+            a[i] = input.nextInt();
         }
-        int[] eliminateDuplicate = new int[lengthOfEliminateList];
-        for (int i = 0, k = 0; i < listWithDefaultValues.length ^ k == lengthOfEliminateList; i++, k++) {
-            if (listWithDefaultValues[i] != 0) {
-                eliminateDuplicate[k] = listWithDefaultValues[i];
-            } else if (listWithDefaultValues[i] == 0) {
-                do {
-                    i++;
-                } while (listWithDefaultValues[i] == 0);
-                eliminateDuplicate[k] = listWithDefaultValues[i];
-            }
-        }
-        return eliminateDuplicate;
+        return a;
     }
+    public static void printResult(int[] a){
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+    }
+    public static boolean isUnique(int[] a, int number) {
+        for (int i = 0; i < a.length; i++) {
+            if (number == a[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+    public static int lengthWithoutDuplicateNumbers(int[] a) {
+        int count = 0;
+        for (int i = 0; i < a.length; i++) {
+            boolean isDuplicate = false;
+            for (int j = i + 1; j < a.length; j++) {
+                if (a[i] == a[j]) {
+                    isDuplicate = true;
+                }
+            }
+            if(!isDuplicate){
+                count++;
+            }
+        }
+        return count;
+    }
+    public static int[] eliminateDuplicates(int[] a) {
+        int distinctNumbers = lengthWithoutDuplicateNumbers(a);
+        int[] afterEliminate = new int[distinctNumbers];
+        int index = 0;
+        for (int i = 0; i < a.length; i++) {
+            if (isUnique(afterEliminate, a[i])) {
+                afterEliminate[index] = a[i];
+                index++;
+            }
+        }
+        return afterEliminate;
+    }
+
+
 }
