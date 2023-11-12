@@ -14,7 +14,7 @@ public class MyDate {
         this.year = calender.get(GregorianCalendar.YEAR);
         this.month = calender.get(GregorianCalendar.MONTH);
         this.day = calender.get(GregorianCalendar.DAY_OF_MONTH);
-        System.out.println(day + "/" + (month + 1) + "/" + year);
+        //System.out.println(day + "/" + (month + 1) + "/" + year);
 
     }
 
