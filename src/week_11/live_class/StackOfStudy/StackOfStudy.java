@@ -1,7 +1,6 @@
-package week_10.live_class;
+package week_11.live_class.StackOfStudy;
 
-public class StackOfIntegers {
-
+public class StackOfStudy {
     private int[] elements;
     private int size; // contents that holds by elements
     public static final int DEFAULT_CAPACITY = 16;
@@ -9,14 +8,14 @@ public class StackOfIntegers {
     /**
      * Construct a stack with the default capacity 16
      */
-    public StackOfIntegers() {
+    public StackOfStudy() {
         this(DEFAULT_CAPACITY);
     }
 
     /**
      * Construct a stack with the specified maximum capacity
      */
-    public StackOfIntegers(int capacity) {
+    public StackOfStudy(int capacity) {
         elements = new int[capacity];
     }
 
