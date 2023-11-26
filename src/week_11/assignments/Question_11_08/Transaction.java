@@ -6,40 +6,43 @@ import java.util.Date;
 public class Transaction extends Account {
     private char type;
     private double amount;
-    private double balance;
     private String description;
-    private Date date;
+    private Date dateCreated ;
     public Transaction(){
-        this.balance=super.getBalance();
+
     }
+//
+//    public Transaction(char type, double amount, double balance, String description) {
+//
+//        super.setBalance(balance);
+//        this.type = type;
+//        this.amount = amount;
+//        this.description = description;
+//
+//
+//   }
 
-    public Transaction(char type, double amount, double balance, String description) {
+    public Transaction(String name, int id, double balance, char type, double amount, String description) {
 
-        this.balance=balance;
         this.type = type;
         this.amount = amount;
         this.description = description;
-        date=new Date();
-        //super.setTransaction(new Transaction(type, amount, balance, description));
-   }
-
-    @Override
-    public double getBalance() {
-        return balance;
     }
 
-    @Override
-    public void setBalance(double balance) {
-        this.balance = balance;
-    }
 
-    public Date getDate() {
-        return date;
-    }
+//    public double getBalance() {
+//        return super.getBalance();
+//    }
+//
+//    @Override
+//    public void setBalance(double balance) {
+//        super.setBalance(balance);
+//    }
 
-    public void setDate(Date date) {
-        this.date = date;
-    }
+//    public Date getDate() {
+//        return super.getDateCreated();
+//    }
+
 
     public char getType() {
         return type;
@@ -65,28 +68,27 @@ public class Transaction extends Account {
         this.description = description;
     }
 
-    @Override
-    public double withdraw(double amount) {
-        this.setBalance(balance - amount);
-        super.setBalance(this.getBalance());
-        //super.setTransaction(new Transaction(type, amount, balance, description));
 
-        return this.getBalance();
+//    public void withdraw(double amount) {
+//        super.setBalance(super.getBalance() - amount);
+//        Transaction transaction = new Transaction('W',amount, super.getBalance(), "Withdraw from ATM");
+//        super.withdraw(transaction);
+//
+//
+//    }
 
-    }
 
-    @Override
-    public double deposit(double amount) {
-        super.setTransaction(new Transaction(type, amount, balance, description));
-        super.setBalance(super.getBalance() + amount);
-        return super.getBalance();
-    }
+//    public void deposit(double amount) {
+//        super.setBalance(super.getBalance() + amount);
+//        Transaction transaction = new Transaction('D',amount, super.getBalance(), "Deposit to ATM");
+//        super.deposit(transaction);
+//    }
     @Override
     public String toString() {
-        return  "Date: " + date +
+        return  "Date: " + super.getDateCreated() +
                 "\nTransaction type: " + ((type=='W') ? "Withdraw" : "Deposit") +
                 "\nAmount: " + amount +
-                "\nBalance: " + balance +
+                "\nBalance: " + super.getBalance() +
                 "\nDescription: " + description;
     }
 

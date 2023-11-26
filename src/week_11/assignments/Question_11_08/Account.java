@@ -6,13 +6,13 @@ import java.util.Date;
 public class Account {
     private String name; // name of customer
     private int id;
-    private double balance;
+    private  double balance;
     private double annualInterestRate;
     private ArrayList<Transaction> transactions = new ArrayList<>();
     private Date dateCreated;
 
     public Account() {
-        this(0, 0);
+
         dateCreated = new Date();
 
     }
@@ -46,8 +46,9 @@ public class Account {
     public void setId(int id) {
         this.id = id;
     }
-    public void setName(String name){
-        this.name=name;
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setBalance(double balance) {
@@ -70,23 +71,24 @@ public class Account {
         return balance * getMonthlyInterestRate();
     }
 
-    public double withdraw(double amount) {
-        balance = getBalance() - amount;
-        return balance;
+    public void withdraw(Transaction transaction) {
+
+        transactions.add(transaction);
 
     }
 
-    public double deposit(double amount) {
-        balance = getBalance() + amount;
-        return balance;
+    public void deposit(Transaction transaction) {
+
+        transactions.add(transaction);
 
     }
-    public void setTransaction(Transaction transaction){
+
+    public void setTransaction(Transaction transaction) {
         transactions.add(transaction);
     }
 
     public ArrayList<Transaction> getTransactions() {
-        return transactions = new ArrayList<>();
+        return transactions;
     }
 
     @Override
@@ -95,9 +97,11 @@ public class Account {
                 "\nID: " + id +
                 "\nBalance: " + balance;
     }
-    public void displayTransactions(){
+
+    public void displayTransactions() {
         for (int i = 0; i < transactions.size(); i++) {
             System.out.print(transactions.get(i) + " ");
         }
     }
+
 }
