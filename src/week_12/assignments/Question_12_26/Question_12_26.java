@@ -1,72 +1,47 @@
 package week_12.assignments.Question_12_26;
 
 import java.io.File;
-import java.io.IOException;
+import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Question_12_26 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
-        File file = new File("C:\\Users\\User\\Workspace\\inar-java\\src\\week_12\\assignments\\Question_12_26");
-        //File file = new File(args[0]);
+        File file = new File("C:\\Users\\User\\Workspace\\inar-java\\src\\week_12\\assignments\\Question_12_26\\file1.txt");
 
-//        if (args[0].charAt(0) != '*' && args[0].length() != 1) {
-//            System.out.println("Appropriate usage: java Question_12_26 *");
-//            System.exit(1);
-//
-//        }
-        if (!file.isDirectory()) {
-            System.out.println("The path does not refer to any directory");
-            System.exit(2);
-        }
+        ArrayList<StringBuilder> list = new ArrayList<>();
 
-        File[] fileHolder = file.listFiles();
-        for (int i = 0; i < Objects.requireNonNull(fileHolder).length; i++) {
-            replaceWords(fileHolder, i);
-        }
-
-    }
-
-    public static void replaceWords(File[] fileHolder, int i) {
-
-        File file = new File(String.valueOf(fileHolder[i]));
-        ArrayList<String> list = new ArrayList<>();
-
-        try (Scanner input = new Scanner(file);
-             PrintWriter output = new PrintWriter(file);
-        ) {
+        try (Scanner input = new Scanner(file)) {
 
             while (input.hasNext()) {
 
-                String s = input.nextLine();
-                String c = s.substring(8);
-                int n = c.indexOf('_');
-                String first = c.substring(0, n);
-                String second = c.substring(n + 1);
-                if (first.length() != 2) {
-                    String temp = "0" + first;
-                    first = temp;
+                String s = input.next();
+                StringBuilder stringBuilder = new StringBuilder(s);
+
+                if (s.matches("Question\\d_\\d")) {
+                    stringBuilder.insert(8, '0');
+                    stringBuilder.insert(11, '0');
+                    list.add(stringBuilder);
+
+                } else if (s.matches("Question\\d_\\d{2}")) {
+                    stringBuilder.insert(8, '0');
+                    list.add(stringBuilder);
+
+                } else if (s.matches("Question\\d{2}_\\d")) {
+                    stringBuilder.insert(11, '0');
+                    list.add(stringBuilder);
+
+                } else {
+                    list.add(stringBuilder);
                 }
-                if (second.length() != 2) {
-                    String temp = "0" + second;
-                    second = temp;
-                }
-                String newStr = "Question" + first + "_" + second;
-
-                list.add(newStr);
-
-
             }
-            for (int j = 0; j < list.size(); j++) {
+        }
+        try (PrintWriter output = new PrintWriter(file)) {
+            for (int i = 0; i < list.size(); i++) {
                 output.println(list.get(i));
             }
-
-        } catch (IOException ex) {
-            System.out.println(ex.getMessage());
         }
-
     }
 }

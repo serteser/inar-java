@@ -1,0 +1,16 @@
+public class CorrectOne {
+    public static void main(String[] args) {
+
+        System.out.println("Enter a directory name: ");
+
+        File file = new File(new Scanner(System.in).nextLine());
+
+        if (!file.exists()) {
+            file.mkdirs();
+            System.out.println("Directory created successfully");
+        }else {
+            System.out.println("Directory already exists");
+        }
+
+    }
+}

@@ -1,0 +1,30 @@
+Linear data structures
+
+As the name suggests, its data have to be structured in a linear order. That means there is no hierarchy, and elements are held together
+sequentially either by pointers or contiguous memory locations. In layman’s terms, each element appears to be connected with one another in a linear fashion.
+Let's take a scenario, say we want to store the prices of all the groceries that we purchased. So we can allocate a contiguous memory block of size
+'n', where 'n' refers to the number of items we purchased.
+
+Array
+
+Here, an array could be a suitable data structure as it's just a collection of similar data types like int, float, char, etc
+The coolest thing about an array is it provides you constant access to each element by means of zero-based indexing.
+In order to access the price of the third element, we could say prices[2].
+Now, how about storing the prices of all the groceries that we are about to buy but don't know the quantity in advance!
+Since the array requires you to specify the size in advance, here such an attempt would be futile.
+In the previous case, notice we had to declare the size by specifying n = 4. I mean you could argue for creating a large enough array so that we can never run out of spaces.
+For example, setting the size of an array to the total number of items in the store or something. Nevertheless, intuition suggests that would be highly inefficient.
+Also, remember, the sole purpose of data structure is to increase efficiency by means of carefully organizing data.
+
+Linked List
+
+Instead of allocating the contiguous memory blocks in advance, how about we wrap our data in a node that spits out a reference that we can use to point to the next node.
+Voila, we have a list of linked nodes vis-a-vis linked list. Alas, we lose indexing!
+And the more we talk about data structures, the more you will see that there's no silver bullet, instead, everything's a tradeoff.
+To learn more about linked lists, you can check out this article.
+Linear data structures are mainly classified into two categories, static and dynamic.
+Static data structures - Here the size of the data structure is allocated in the memory during the compile-time thereby rendering the allocated size fixed.
+This results in the maximum size of such data structures needing to be known in advance, as memory cannot be reallocated at a later point. That’s why they are called static.
+Dynamic data structure - Here the size is allocated at the runtime which makes it flexible. As the memory can always be reallocated depending on the requirements,
+these data structures are called dynamic.
+I think, suffice to say, an array is a static data structure whereas a linked list is dynamic!
